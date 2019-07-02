@@ -12,7 +12,6 @@ public class Calculator {
         System.out.println("Insert price of your car abroad");
         Calculator calc = new Calculator();
         System.out.println("Total price in Ukraine will be " + calc.totalPriceCalculation());
-        System.out.printf("%.2f", calc.totalPriceCalculation());
     }
     private double totalPriceCalculation() {
         double toll = carPrice * 0.1;
